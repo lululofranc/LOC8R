@@ -8,7 +8,7 @@
   "engines": {
     "node": "~12.11.1",
     "npm": "~6.11.3"
-    },
+  },
   "dependencies": {
     "constantinople": "^4.0.1",
     "cookie-parser": "~1.4.4",
