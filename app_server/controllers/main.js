@@ -1,6 +1,6 @@
 var testPage_Controller = function (req, res, err) {
     res.render('index', {
-        title: 'Test Title
+        title: 'Test Title'
     }) // index => ..app_server/views/index.jade = template 
 };
 
