@@ -10,6 +10,18 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    navbar.navbar-expand-sm.navbar-light.bg-light
+    //-
+     a.navbar-brand(href="#") LOcation 1
+     button.navbar-toggle(type='button', data-toggle='collapse', datatarget='#navbar-main')
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+     #navbar-main.navbar-collapse.collapse
+      ul.nav.navbar-nav
+       li
+        a(href='/about/') About
+    -//
     block content
 
   script(src='/javascripts/jquery.js')

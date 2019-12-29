@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-// var ctrl = require('../controllers/main')
+var ctrl = require('../controllers/main')
 var ctrlLocations = require('../controllers/locations')
 var ctrlOthers = require('../controllers/others')
 
@@ -13,7 +13,7 @@ var ctrlOthers = require('../controllers/others')
 
 //router.get('/',homePage_controller);
 //router.get('/',ctrl.homePage_Controller);
-router.get('/')
+router.get('/' , ctrlLocations.homeList)
 router.get('/locations', ctrlLocations.locationInfo)
 router.get('/locations/review/new', ctrlLocations.addReview)
 

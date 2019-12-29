@@ -1,5 +1,5 @@
-var about = function(){
-    res.render('file',{title: 'Title value'})
+var about = function(req,res,err){
+    res.render('index',{title: 'About - Title'})
 };
 
 module.exports = {

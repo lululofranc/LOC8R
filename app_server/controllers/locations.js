@@ -1,18 +1,18 @@
-var homeList = function () {
-    res.render('file', {
-        title: ""
+var homeList = function (req,res,err) {
+    res.render('index', {
+        title: "Home List"
     })
 };
 
-var locationInfo = function () {
-    res.render('file', {
-        title: ""
+var locationInfo = function (req,res,err) {
+    res.render('index', {
+        title: "Location Info"
     })
 };
 
-var addReview = function () {
-    res.render('file.?', {
-        title: "o valoare de titlu"
+var addReview = function (req,res,err) {
+    res.render('index', {
+        title: "Add review about locations ..."
     })
 };
 
